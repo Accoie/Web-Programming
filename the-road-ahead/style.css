@@ -1,0 +1,117 @@
+@font-face{
+  font-family: 'Lora';
+  src: url('fonts/lora-v35-latin-regular.woff2') format('woff2'); 
+}
+@font-face{ 
+  font-family: 'Oxygen';
+  src: url('fonts/oxygen-v15-latin-regular.woff2') format('woff2');
+}
+/* Убрать фиксированную ширину, либо использовать max-width или min-width */
+html{
+  max-width: 1440px;
+}
+body{
+  max-width: 1440px;
+  height: 100%;
+  margin: 0;
+  background-color: #f7f7f7;
+  overflow-x: hidden;
+}
+.header{
+  max-width: 1440px;
+  max-height: 74px;
+}
+.header-bar{
+  max-width: 940px;
+  max-height: 45px;
+  padding: 17px 250px 17px 250px;
+  display: flex;
+}
+.bar-name{
+  font-family: 'Lora';
+  font-weight: 400;
+  font-size: 26px;
+  max-width: 92px;
+  max-height: 26px;
+  margin: 0;
+}
+.bar-catalog{
+  font-family: 'Oxygen';
+  font-weight: 400;
+  font-size: 12px;
+  max-width: 376.61px;
+  max-height: 20px;
+  padding: 0 0 0 471px;
+  word-spacing: 35px;
+}
+.bar-catalog-text{
+  text-transform: uppercase;
+  padding-top: 9px;
+}
+.main{
+  max-width: 940px;
+  max-height: 159px;
+  text-align: center;
+  margin: 0 0 0 250px;
+}
+.main-title{
+  max-width: 498px;
+  max-height: 51px;
+  font-family: 'Lora';
+  font-weight: 400;
+  font-size: 50px;
+  text-align: center;
+  margin: 0 0 0 221px;
+  word-spacing: 10px;
+}
+.main-down{
+  font-family: 'Oxygen';
+  font-size: 17px;
+  padding: 13px 0 70px 0;
+  margin: 0;
+}
+.background-body{
+  max-width: 1440px;
+  max-height: 534px;
+  background-size: cover;
+  background-image: url('images/sever.jpg');
+  background-position-y: -200px;
+  padding-bottom: 534px;
+}
+.main-text{
+  max-width: 960px;
+  max-height: 1431px;
+  text-align: left;
+  font-size: 24px;
+  font-family: 'Oxygen';
+  line-height: 35px;
+  padding: 140px 140px 140px 240px;
+}
+.footer{
+  overflow: hidden;
+  max-width: 1440px;
+  max-height: 83px;
+  background-image: url('images/blur-village.jpg');
+  background-position-y: 1300px;
+  display: flex;
+}
+.footer-name{
+  font-family: 'Lora';
+  color: #ffffff;
+  max-width: 92px;
+  max-height: 26px;
+  font-size: 26px;
+  margin: 0 590px 0 250px;
+}
+.footer-catalog{
+  letter-spacing: 1px;
+  font-size: 11px;
+  font-family: 'Oxygen';;
+  color: #ffffff;
+  opacity: 60%;
+  max-width: 639.98px;
+  max-height: 32px;
+  word-spacing: 60px;
+  padding: 35px 0 35px 0;
+  text-transform: uppercase; 
+}
