@@ -1,0 +1,718 @@
+* {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow-x: hidden;
+}
+.header{
+  background-image: url('images/canyons.jpg');
+  max-width: 1440px;
+  max-height: 500px;
+  margin: 0;
+  background-size: cover;
+  background-position-y: -230px;
+  background-repeat: no-repeat;
+}
+.header-filter{
+  max-width: 1440px;
+  max-height: 500px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 0;
+}
+.header-bar{
+  max-width: 940px;
+  max-height: 40px;
+  color: white;
+  padding: 17px 250px 17px 250px; 
+  display: flex; 
+}
+.header-bar-title{
+  font-family: 'Lora';
+  font-size: 26px;
+  padding-top: 3px;
+  max-width: 92px;
+  max-height: 26px;
+  line-height: 26px;
+}
+.header-bar-catalog{
+  line-height: 20px;
+  flex-shrink: 0;
+  font-family: 'Oxygen';
+  font-size: 12px;
+  max-width: 376.61px;
+  max-height: 40px;
+  text-align: center;
+  word-spacing: 40px;
+  padding-left: 471px;
+  text-transform: uppercase;
+}
+.header-main{
+  max-width: 940px;
+  max-height: 159px;
+  padding: 110px 250px 110px 250px;
+  color: white;
+}
+.header-main-text{
+  line-height: 51px;
+  letter-spacing: 2px;
+  padding-left: 221px;
+  font-family: 'Lora';
+  font-size: 50px;
+  max-width: 498px;
+  max-height: 51px;
+  text-align: center;
+}
+.header-main-down-text{
+  line-height: 20px;
+  font-size: 17px;
+  font-family: 'Oxygen';
+  max-width: 504px;
+  max-height: 20px;
+  opacity: 63%;
+  padding: 20px 0 0 218px;
+  text-align: center;
+  margin-bottom: 31px;
+}
+.header-main-button{
+  font-family: 'Oxygen';
+  font-size: 13px;
+  max-width: 167px;
+  max-height: 32px;
+  line-height: 24px;
+  background-color: #dd783f;
+  color: white;
+  border: 0;
+  border-radius: 3px;
+  text-align: center;
+  padding: 6px 0 6px 0;
+  margin-left: 387px;
+}
+.posts{
+  max-width: 1440px;
+  max-height: 1320px;
+  background-color: #f7f7f7;
+}
+.posts-bar{
+  line-height: 20px;
+  font-family: 'Lora';
+  font-size: 14px;
+  max-width: 960px;
+  max-height: 46px;
+  padding: 18px 240px 20px 240px;
+  word-spacing: 112px;
+  text-align: center;
+  background-color: white;
+  color: #768088
+}
+.posts-featured{
+  max-width: 940px;
+  max-height: 414px;
+  padding-left: 250px;
+  margin-bottom: 300px;
+}
+.posts-featured-title{
+  max-width: 940px;
+  max-height: 44px;
+  padding-top: 60px;
+}
+.posts-featured-text{
+  letter-spacing: 2px;
+  font-family: 'Oxygen';
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.posts-featured-line{
+  margin-left: 376px;
+  max-width: 188px;
+  max-height: 1px;
+  padding-bottom: 1px;
+  background-color: #dedede;
+}
+.posts-featured-container{
+  max-width: 960px;
+  max-height: 294px;
+  padding-top: 16px;
+  display: flex;
+}
+.posts-featured-first{
+  background-image: url('images/sever.jpg');
+  max-width: 460px;
+  max-height: 280px;
+  margin: 7px 20px 7px 0;
+  background-size: 460px 280px;
+  border-radius: 3px;
+  color: white;
+}
+.featured-first-title{
+  font-family: 'Lora';
+  font-size: 27px;
+  max-width: 204px;
+  max-height: 30px;
+  padding: 157px 0 0 20px; 
+  line-height: 30px;
+}
+.featured-first-text{
+  font-family: 'Oxygen';
+  font-size: 14px;
+  opacity: 70%;
+  max-width: 316px;
+  max-height: 25px;
+  padding: 6px 0 0 20px;
+  line-height: 25px;
+  margin-bottom: 13px;
+}
+.featured-first-footer{
+  width: 420px;
+  max-height: 35px;
+  padding: 0 0 17px 20px;
+  display: flex;
+  font-family: 'Oxygen';
+  font-size: 12px;
+}
+.featured-first-footer-image{
+  max-width: 26px;
+  max-height: 26px;
+  background-size: 26px;
+  background-image: url('images/man1.jpg');
+  border-radius: 60px;
+  margin-top: 5px;
+}
+.featured-first-footer-name{
+  max-width: 61px;
+  max-height: 35px;
+  line-height: 35px;
+  opacity: 70%;
+  padding-left: 10px;
+}
+.featured-first-footer-date{
+  max-width: 108px;
+  max-height: 35px;
+  line-height: 35px;
+  opacity: 70%;
+  padding-left: 215px;
+}
+.posts-featured-second{
+  max-width: 460px;
+  max-height: 280px;
+  margin: 7px 0 7px 0;
+  background-image: url('images/celeb.jpg');
+  background-size: 460px 280px;
+  color: white;
+  border-radius: 3px;
+}
+.featured-second-button{
+  max-width: 87px;
+  max-height: 26px;
+  margin: 20px 0 0 20px;
+  background-color: #dd783f;
+  border-radius: 3px;
+  padding: 1px 0 4px 0
+}
+.featured-second-button-text{
+  max-width: 69px;
+  max-height: 13px;
+  font-family: 'Oxygen';
+  font-size: 12px;
+  line-height: 13px;
+  padding: 6px 0 0 9px;
+}
+.featured-second-title{
+  font-family: 'Lora';
+  font-size: 27px;
+  max-width: 207px;
+  max-height: 30px;
+  padding: 111px 0 0 20px; 
+  line-height: 30px;
+}
+.featured-second-text{
+  font-family: 'Oxygen';
+  font-size: 14px;
+  opacity: 70%;
+  max-width: 344px;
+  max-height: 25px;
+  padding: 6px 0 0 20px;
+  line-height: 25px;
+}
+.featured-second-footer{
+  max-width: 420px;
+  max-height: 35px;
+  padding: 17px 0 0 20px;
+  display: flex;
+  font-family: 'Oxygen';
+  font-size: 12px;
+}
+.featured-second-footer-image{
+  max-width: 26px;
+  max-height: 26px;
+  background-size: 26px;
+  background-image: url('images/man2.jpg');
+  border-radius: 60px;
+  margin-top: 5px;
+}
+.featured-second-footer-name{
+  max-width: 76px;
+  max-height: 35px;
+  line-height: 35px;
+  opacity: 70%;
+  padding-left: 10px;
+  font-size: 11px;
+  margin-right: 200px;
+}
+.featured-second-footer-date{
+  max-width: 108px;
+  max-height: 35px;
+  line-height: 35px;
+  opacity: 70%;
+  padding-right: 30px;
+}
+.posts-most-recent{
+  max-width: 940px;
+  max-height: 752px;
+  padding: 0 0 80px 250px;
+}
+.posts-most-recent-title{
+  max-width: 940px;
+  max-height: 44px;
+  padding-top: 60px;
+}
+.posts-most-recent-text{
+  line-height: 27px;
+  letter-spacing: 2px;
+  font-family: 'Oxygen';
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.posts-most-recent-line{
+  margin-left: 376px;
+  max-width: 188px;
+  max-height: 1px;
+  padding: 0 0 1px 0;
+  background-color: #dedede;
+}
+.posts-most-recent-container{
+  max-width: 960px;
+  max-width: 632px;
+  padding-top: 16px;
+}
+.most-recent-up{
+  max-width: 946px;
+  max-height: 291px;
+  display: flex;
+  margin: 6px 0 25px 0;
+}
+.most-recent-one{
+  max-width: 296px;
+  max-height: 291px;
+  margin-right:24px;
+  background-color: white;
+  flex-shrink: 0;
+}
+.recent-one-image{
+  max-width: 296px;
+  max-height: 150px;
+  padding: 75px 0px 75px 0px;
+  background-image: url('images/baloons.jpg');
+  background-size: 296px 180px;
+}
+.recent-one-title{
+  max-width: 133px;
+  max-height: 21px;
+  padding: 14px 0 0 13px;
+  font-family: 'Lora';
+  font-size: 16px;
+  line-height: 21px;
+  color: #101315;
+}
+.recent-one-text{
+  max-width: 255px;
+  max-height: 19px;
+  padding: 6px 28px 32px 13px;
+  font-family: 'Oxygen';
+  font-size: 13px;
+  line-height: 19px;
+  color: #7a7a7a;
+  border-bottom: thin solid #f7f7f7;
+}
+.recent-one-footer{
+  max-width: 296px;
+  max-height: 48px;
+  display: flex;
+  font-family: 'Oxygen';
+}
+.recent-one-footer-image{
+  max-width: 26px;
+  max-height: 26px;
+  background-size: 26px;
+  background-image: url('images/man2.jpg');
+  border-radius: 60px;
+  margin: 12px 0 0 13px;
+}
+.recent-one-footer-name{
+  max-width: 76px;
+  max-height: 35px;
+  line-height: 35px;
+  padding: 7px 0 0 10px;
+  font-size: 11px;
+  color: #999999;
+}
+.recent-one-footer-date{
+  max-width: 58px;
+  max-height: 35px;
+  line-height: 35px;
+  font-size: 12px;
+  color: #999999;
+  padding: 7px 0 0 100px;
+}
+.most-recent-two{
+  max-width: 296px;
+  max-height: 291px;
+  margin-right: 24px;
+  background-color: white;
+  flex-shrink: 0;
+}
+.recent-two-image{
+  max-width: 296px;
+  max-height: 150px;
+  padding: 75px 0px 75px 0px;
+  background-image: url('images/bridges.jpg');
+  background-size: 296px 180px;
+}
+.recent-two-title{
+  max-width: 133px;
+  max-height: 21px;
+  padding: 14px 0 0 13px;
+  font-family: 'Lora';
+  font-size: 16px;
+  line-height: 21px;
+  color: #101315;
+}
+.recent-two-text{
+  max-width: 255px;
+  max-height: 19px;
+  padding: 6px 28px 32px 13px;
+  font-family: 'Oxygen';
+  font-size: 13px;
+  line-height: 19px;
+  color: #7a7a7a;
+  border-bottom: thin solid #f7f7f7;
+}
+.recent-two-footer{
+  max-width: 296px;
+  max-height: 48px;
+  display: flex;
+  font-family: 'Oxygen';
+}
+.recent-two-footer-image{
+  max-width: 26px;
+  max-height: 26px;
+  background-size: 26px;
+  background-image: url('images/man1.jpg');
+  border-radius: 60px;
+  margin: 12px 0 0 13px;
+}
+.recent-two-footer-name{
+  max-width: 76px;
+  max-height: 35px;
+  line-height: 35px;
+  padding: 7px 0 0 10px;
+  font-size: 11px;
+  color: #999999;
+}
+.recent-two-footer-date{
+  max-width: 58px;
+  max-height: 35px;
+  line-height: 35px;
+  font-size: 12px;
+  color: #999999;
+  padding: 7px 0 0 100px;
+}
+.most-recent-three{
+  max-width: 296px;
+  max-height: 291px;
+  background-color: white;
+  flex-shrink: 0;
+}
+.recent-three-image{
+  max-width: 296px;
+  max-height: 150px;
+  padding: 75px 0px 75px 0px;
+  background-image: url('images/river.jpg');
+  background-size: 296px 180px;
+}
+.recent-three-title{
+  max-width: 133px;
+  max-height: 21px;
+  padding: 14px 0 0 13px;
+  font-family: 'Lora';
+  font-size: 16px;
+  line-height: 21px;
+  color: #101315;
+}
+.recent-three-text{
+  max-width: 255px;
+  max-height: 19px;
+  padding: 6px 28px 32px 13px;
+  font-family: 'Oxygen';
+  font-size: 13px;
+  line-height: 19px;
+  color: #7a7a7a;
+  border-bottom: thin solid #f7f7f7;
+}
+.recent-three-footer{
+  max-width: 296px;
+  max-height: 48px;
+  display: flex;
+  font-family: 'Oxygen';
+}
+.recent-three-footer-image{
+  max-width: 26px;
+  max-height: 26px;
+  background-size: 26px;
+  background-image: url('images/man1.jpg');
+  border-radius: 60px;
+  margin: 12px 0 0 13px;
+}
+.recent-three-footer-name{
+  max-width: 76px;
+  max-height: 35px;
+  line-height: 35px;
+  padding: 7px 0 0 10px;
+  font-size: 11px;
+  color: #999999;
+}
+.recent-three-footer-date{
+  max-width: 58px;
+  max-height: 35px;
+  line-height: 35px;
+  font-size: 12px;
+  color: #999999;
+  padding: 7px 0 0 100px;
+}
+.most-recent-down{
+  max-width: 946px;
+  max-height: 291px;
+  display: flex;
+}
+.most-recent-four{
+  max-width: 296px;
+  max-height: 291px;
+  margin-right: 24px;
+  background-color: white;
+  flex-shrink: 0;
+}
+.recent-four-image{
+  max-width: 296px;
+  max-height: 150px;
+  padding: 75px 0px 75px 0px;
+  background-image: url('images/sea.jpg');
+  background-size: 296px 180px;
+}
+.recent-four-title{
+  max-width: 133px;
+  max-height: 21px;
+  padding: 14px 0 0 13px;
+  font-family: 'Lora';
+  font-size: 16px;
+  line-height: 21px;
+  color: #101315;
+}
+.recent-four-text{
+  max-width: 255px;
+  max-height: 19px;
+  padding: 6px 28px 32px 13px;
+  font-family: 'Oxygen';
+  font-size: 13px;
+  line-height: 19px;
+  color: #7a7a7a;
+  border-bottom: thin solid #f7f7f7;
+}
+.recent-four-footer{
+  max-width: 296px;
+  max-height: 48px;
+  display: flex;
+  font-family: 'Oxygen';
+}
+.recent-four-footer-image{
+  max-width: 26px;
+  max-height: 26px;
+  background-size: 26px;
+  background-image: url('images/man2.jpg');
+  border-radius: 60px;
+  margin: 12px 0 0 13px;
+}
+.recent-four-footer-name{
+  max-width: 76px;
+  max-height: 35px;
+  line-height: 35px;
+  padding: 7px 0 0 10px;
+  font-size: 11px;
+  color: #999999;
+}
+.recent-four-footer-date{
+  max-width: 58px;
+  max-height: 35px;
+  line-height: 35px;
+  font-size: 12px;
+  color: #999999;
+  padding: 7px 0 0 100px;
+}
+.most-recent-five{
+  max-width: 296px;
+  max-height: 291px;
+  margin-right: 24px;
+  background-color: white;
+  flex-shrink: 0;
+}
+.recent-five-image{
+  max-width: 296px;
+  max-height: 150px;
+  padding: 75px 0px 75px 0px;
+  background-image: url('images/fog.jpg');
+  background-size: 296px 180px;
+}
+.recent-five-title{
+  max-width: 133px;
+  max-height: 21px;
+  padding: 14px 0 0 13px;
+  font-family: 'Lora';
+  font-size: 16px;
+  line-height: 21px;
+  color: #101315;
+}
+.recent-five-text{
+  max-width: 255px;
+  max-height: 19px;
+  padding: 6px 28px 32px 13px;
+  font-family: 'Oxygen';
+  font-size: 13px;
+  line-height: 19px;
+  color: #7a7a7a;
+  border-bottom: thin solid #f7f7f7;
+}
+.recent-five-footer{
+  max-width: 296px;
+  max-height: 48px;
+  display: flex;
+  font-family: 'Oxygen';
+}
+.recent-five-footer-image{
+  max-width: 26px;
+  max-height: 26px;
+  background-size: 26px;
+  background-image: url('images/man1.jpg');
+  border-radius: 60px;
+  margin: 12px 0 0 13px;
+}
+.recent-five-footer-name{
+  max-width: 76px;
+  max-height: 35px;
+  line-height: 35px;
+  padding: 7px 0 0 10px;
+  font-size: 11px;
+  color: #999999;
+}
+.recent-five-footer-date{
+  max-width: 58px;
+  max-height: 35px;
+  line-height: 35px;
+  font-size: 12px;
+  color: #999999;
+  padding: 7px 0 0 100px;
+}
+.most-recent-six{
+  max-width: 296px;
+  max-height: 291px;
+  background-color: white;
+  flex-shrink: 0;
+}
+.recent-six-image{
+  max-width: 296px;
+  max-height: 150px;
+  padding: 75px 0px 75px 0px;
+  background-image: url('images/peace.jpg');
+  background-size: 296px 180px;
+}
+.recent-six-title{
+  max-width: 133px;
+  max-height: 21px;
+  padding: 14px 0 0 13px;
+  font-family: 'Lora';
+  font-size: 16px;
+  line-height: 21px;
+  color: #101315;
+}
+.recent-six-text{
+  max-width: 255px;
+  max-height: 19px;
+  padding: 6px 28px 32px 13px;
+  font-family: 'Oxygen';
+  font-size: 13px;
+  line-height: 19px;
+  color: #7a7a7a;
+  border-bottom: thin solid #f7f7f7;
+}
+.recent-six-footer{
+  max-width: 296px;
+  max-height: 48px;
+  display: flex;
+  font-family: 'Oxygen';
+}
+.recent-six-footer-image{
+  max-width: 26px;
+  max-height: 26px;
+  background-size: 26px;
+  background-image: url('images/man1.jpg');
+  border-radius: 60px;
+  margin: 12px 0 0 13px;
+}
+.recent-six-footer-name{
+  max-width: 76px;
+  max-height: 35px;
+  line-height: 35px;
+  padding: 7px 0 0 10px;
+  font-size: 11px;
+  color: #999999;
+}
+.recent-six-footer-date{
+  max-width: 58px;
+  max-height: 35px;
+  line-height: 35px;
+  font-size: 12px;
+  color: #999999;
+  padding: 7px 0 0 100px;
+}
+.footer{
+  max-width: 1440px;
+  max-height: 83px;
+  background-image: url('images/village.jpg');
+  background-position-y: 1300px;
+  display: flex;
+}
+.footer-name{
+  font-family: 'Lora';
+  color: #ffffff;
+  max-width: 92px;
+  max-height: 26px;
+  font-size: 26px;
+  margin: 0 590px 0 250px;
+  padding: 25px 0 25px 0
+}
+.footer-catalog{
+  letter-spacing: 1px;
+  font-size: 11px;
+  font-family: 'Oxygen';;
+  color: #ffffff;
+  opacity: 60%;
+  max-width: 639.98px;
+  max-height: 32px;
+  word-spacing: 20px;
+  padding: 35px 0 35px 0;
+  text-transform: uppercase; 
+}
