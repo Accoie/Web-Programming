@@ -7,38 +7,49 @@
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <title>Index</title>
+    <style>
+      ul {
+        list-style-type: none;
+      }
+    </style>
   <link rel="stylesheet" href="index-style.css">
 </head>
 <body>
-  <div class="header">
+  <header class="header">
     <div class="header-filter">
       <div class="header-bar">
         <div class="header-bar-title">
           Escape.
         </div>
-        <div class="header-bar-catalog">
-          <p>
-            home catalog categories contact
-          </p>
-        </div>
+        <ul class="header-bar-navigation">
+            <li>home</li>
+            <li>catalog</li>
+            <li>categories</li>
+            <li>contact</li>
+        </ul>
       </div> 
       <div class="header-main">
-        <div class="header-main-text"> 
+        <h1 class="header-main-text"> 
           Let's do it together.
-        </div>
-        <div class="header-main-down-text">
+        </h1>
+        <h2 class="header-main-down-text">
           We travel the world in search of stories. Come along for the ride.
-        </div>
-        <div class="header-main-button">
+        </h2>
+        <button class="header-main-button">
             View Latest Posts
-        </div>
+        </button>
       </div> 
     </div>
-  </div>
+  </header>
   <div class="posts">
-    <div class="posts-bar">
-      Nature Photography Relaxation Vacation Travel Adventure
-    </div>
+    <ul class="posts-bar">
+      <li>Nature</li>
+      <li>Photography</li>
+      <li>Relaxation</li>
+      <li>Vacation</li>
+      <li>Travel</li>
+      <li>Adventure</li>
+    </ul>
     <div class="posts-featured">
       <div class="posts-featured-title">
         <div class="posts-featured-text">
@@ -55,8 +66,8 @@
               The road ahead might be paved - it might not be.
             </div>
             <div class="featured-first-footer">
-              <div class="featured-first-footer-image">
-              </div>
+              <img class="featured-first-footer-image">
+              </img>
               <div class="featured-first-footer-name">
                 Mat Vogels
               </div>
@@ -66,11 +77,9 @@
             </div>
           </div>
           <div class="posts-featured-second">
-            <div class="featured-second-button">
-              <div class="featured-second-button-text">
+            <button class="featured-second-button">
                 ADVENTURE
-              </div>
-            </div>
+            </button>
             <div class="featured-second-title">
               From Top Down
             </div>
@@ -78,8 +87,8 @@
               Once a year, go someplace you’ve never been before.
             </div>
             <div class="featured-second-footer">
-              <div class="featured-second-footer-image">
-              </div>
+              <img class="featured-second-footer-image">
+              </img>
               <div class="featured-second-footer-name">
                 William Wong
               </div>
@@ -102,8 +111,8 @@
       <div class="posts-most-recent-container">
         <div class="most-recent-up">
           <div class="most-recent-one">
-            <div class="recent-one-image">
-            </div> 
+            <img class="recent-one-image">
+            </img> 
             <div class="recent-one-title">
               Still Standing Tall
             </div>
@@ -122,8 +131,8 @@
             </div>
           </div>
           <div class="most-recent-two">
-            <div class="recent-two-image">
-            </div> 
+            <img class="recent-two-image">
+            </img> 
             <div class="recent-two-title">
               Sunny Side Up
             </div>
@@ -142,8 +151,8 @@
             </div>
           </div>
           <div class="most-recent-three">
-            <div class="recent-three-image">
-            </div> 
+            <img class="recent-three-image">
+            </img> 
             <div class="recent-three-title">
               Water Falls
             </div>
@@ -164,8 +173,8 @@
         </div>
         <div class="most-recent-down">
           <div class="most-recent-four">
-            <div class="recent-four-image">
-            </div> 
+            <img class="recent-four-image">
+            </img> 
             <div class="recent-four-title">
               Through the Mist
             </div>
@@ -184,8 +193,8 @@
             </div>
           </div>
           <div class="most-recent-five">
-            <div class="recent-five-image">
-            </div> 
+            <img class="recent-five-image">
+            </img> 
             <div class="recent-five-title">
               Awaken Early
             </div>
@@ -204,8 +213,8 @@
           </div>
           </div>
           <div class="most-recent-six">
-            <div class="recent-six-image">
-            </div> 
+            <img class="recent-six-image">
+            </img> 
             <div class="recent-six-title">
               Try it Always
             </div>
@@ -226,15 +235,20 @@
       </div>
     </div>
   </div>
-  <div class="footer">
+  <footer class="footer">
+    <div class="footer-filter">
       <div class="footer-name">
         <p>
           Escape.
         </p>
       </div>
-      <div class="footer-catalog">
-        home categories about contact
-      </div>
-  </div>
+      <ul class="footer-navigation">
+        <li>home</li>
+        <li>categories</li> 
+        <li>about</li> 
+        <li>contact</li>  
+      </ul>
+    </div>
+  </footer>
 </body>
 </html>
