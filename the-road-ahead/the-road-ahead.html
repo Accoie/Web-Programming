@@ -1,34 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+  <style>
+    ul {
+      list-style-type: none;
+    }
+  </style>
   <meta charset="UTF-8">
   <title>The Road Ahead</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <div class="header">
     <div class="header-bar">
       <div class="bar-name">
-          Escape.
+        Escape.
       </div>
-      <div class="bar-catalog">
-        <div class="bar-catalog-text">
-          home categories about contact
-        </div>
-        
-      </div>
+      <ul class="bar-catalog">
+        <li>home</li>
+        <li>categories</li>
+        <li>about</li> 
+        <li>contact</li>
+      </ul>   
     </div>
   </div>
   <div class="main">
-    <div class="main-title">
-      <p>
-        The Road Ahead
-      </p>
-    </div>
+    <h1 class="main-title">
+      The Road Ahead
+    </h1>
     <div class="main-down">
       The road ahead might be paved - it might not be.
     </div>
@@ -72,13 +77,18 @@
     </p>
   </div>
   <div class="footer">
-    <div class="footer-name">
-      <p>
-        Escape.
-      </p>
-    </div>
-    <div class="footer-catalog">
-        home categories about contact
+    <div class="footer-filter">
+      <div class="footer-name">
+        <p>
+          Escape.
+        </p>
+      </div>
+      <div class="footer-catalog">
+        <ul>home</ul>
+        <ul>categories</ul>
+        <ul>about</ul> 
+        <ul>contact</ul>
+      </div>
     </div>
   </div>
 </body>
