@@ -28,8 +28,9 @@ body{
   max-width: 940px;
   max-height: 40px;
   color: white;
-  padding: 17px 250px 17px 250px; 
-  display: flex; 
+  margin: auto;
+  display: flex;
+  padding-top: 15px;   
 }
 .header-bar-title{
   font-family: 'Lora', sans-serif;
@@ -41,44 +42,41 @@ body{
 }
 .header-bar-navigation{
   line-height: 20px;
-  flex-shrink: 0;
   font-family: 'Oxygen', sans-serif;
   font-size: 12px;
-  max-width: 377px;
-  max-height: 40px;
+  width: 400px;
   text-align: center;
-  padding-left: 471px;
   text-transform: uppercase;
   display: flex;
+  padding-top: 10px;
+  margin-left: auto;
 }
 .header-main{
   max-width: 940px;
   max-height: 159px;
   padding: 110px 250px 110px 250px;
   color: white;
+  justify-content: center;
 }
 .header-main-text{
   line-height: 51px;
-  letter-spacing: 2px;
-  padding-left: 221px;
+  letter-spacing: 2px;;
   font-family: 'Lora', sans-serif;
   font-size: 50px;
-  max-width: 498px;
-  max-height: 51px;
+  width: 100%;
   text-align: center;
   font-weight: 400;
-}
+  margin-bottom: 10px;
+} 
 .header-main-down-text{
   line-height: 20px;
   font-size: 17px;
   font-family: 'Oxygen', sans-serif;
-  max-width: 504px;
-  max-height: 20px;
+  width: 100%;
   opacity: 63%;
-  padding: 20px 0 0 218px;
   text-align: center;
-  margin-bottom: 31px;
   font-weight: 400;
+  padding-bottom: 30px;
 }
 .header-main-button{
   font-family: 'Oxygen', sans-serif;
@@ -92,11 +90,11 @@ body{
   border-radius: 3px;
   text-align: center;
   padding: 3px 0 3px 0;
-  margin-left: 387px;
+  margin-left: 371px;
 }
 .posts{
-  max-width: 1440px;
-  max-height: 1320px;
+  width: 100%;
+
   background-color: #f7f7f7;
 }
 .posts-bar{
@@ -113,21 +111,22 @@ body{
   display: inline-flex;
 }
 .posts-featured{
-  max-width: 940px;
-  max-height: 414px;
+  width: 100%;
   padding-left: 250px;
   margin-bottom: 300px;
 }
 .posts-featured-title{
-  max-width: 940px;
+  width: 100%;
   max-height: 44px;
   padding-top: 60px;
 }
 .posts-featured-text{
+  width: 200px;
   letter-spacing: 2px;
   font-family: 'Oxygen', sans-serif;
   font-size: 20px;
   text-align: center;
+  padding-left: 370px; 
   margin-bottom: 16px;
 }
 .posts-featured-line{
